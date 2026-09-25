@@ -31,9 +31,10 @@ function Home() {
             alt=""
             width={1920}
             height={1088}
-            className="h-full w-full object-cover opacity-30"
+            className="h-full w-full object-cover opacity-80"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/60 to-ink/80" />
+          <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/50" />
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-10 pt-20 pb-24 lg:pt-28 lg:pb-32">
           <p className="fade-up text-xs font-medium uppercase tracking-[0.35em] text-brass">
