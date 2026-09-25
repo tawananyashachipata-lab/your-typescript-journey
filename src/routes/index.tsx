@@ -25,18 +25,18 @@ function Home() {
   return (
     <>
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 -z-10" aria-hidden="true">
+        <div className="absolute inset-0" aria-hidden="true">
           <img
             src={heroImage}
             alt=""
             width={1920}
             height={1088}
-            className="h-full w-full object-cover opacity-80"
+            className="h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/80 to-ink/20" />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/25" />
+          <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/60" />
         </div>
-        <div className="mx-auto max-w-7xl px-6 lg:px-10 pt-20 pb-24 lg:pt-28 lg:pb-32">
+        <div className="relative mx-auto max-w-7xl px-6 lg:px-10 pt-20 pb-24 lg:pt-28 lg:pb-32">
           <p className="fade-up text-xs font-medium uppercase tracking-[0.35em] text-brass">
             {SHOP.established}
           </p>
